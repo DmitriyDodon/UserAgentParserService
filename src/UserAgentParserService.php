@@ -1,12 +1,11 @@
 <?php
 
-
 namespace AUserAgentParserService\dmitriy;
 
-
+use InterfaceUA\dmitriy\UserAgentInterface;
 use UAParser\Parser;
 
-class UserAgentParserService implements \App\Service\UserAgent\UserAgentInterface
+class UserAgentParserService implements UserAgentInterface
 {
     protected $data;
 
