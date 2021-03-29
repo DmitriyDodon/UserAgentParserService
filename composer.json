@@ -6,6 +6,13 @@
     }
   },
   "require": {
-    "ua-parser/uap-php": "^3.9.14"
-  }
+    "ua-parser/uap-php": "^3.9.14",
+    "dmitriy/useragentinterface": "^1.0"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/DmitriyDodon/UserAgentInterface"
+    }
+  ]
 }
