@@ -1,0 +1,11 @@
+{
+  "name": "dmitriy/useragentparserservice",
+  "autoload": {
+    "psr-4": {
+      "UserAgentParserService\\dmitriy\\": "src/"
+    }
+  },
+  "require": {
+    "ua-parser/uap-php": "^3.9.14"
+  }
+}
