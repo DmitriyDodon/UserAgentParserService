@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Service\UserAgent\UserAgentService;
+namespace AUserAgentParserService\dmitriy;
 
 
 use UAParser\Parser;
